@@ -1,0 +1,31 @@
+{
+    "name": "zteam-chat-app",
+    "version": "1.0.0",
+    "description": "Real time chat app with socket io and express ",
+    "main": "index.js",
+    "scripts": {
+        "test": "mocha server/**/*.test.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Z-Team-Pro/ZTeam-Chat.git"
+    },
+    "keywords": [
+        "node-chat",
+        "express",
+        "socketio",
+        "real",
+        "time",
+        "chat"
+    ],
+    "bin": { "zteam-chat": "bin/zteam-server.js" },
+    "author": "Ramy Hakam <pencilsoft1@gmail.com>",
+    "license": "MIT",
+    "bugs": {
+        "url": "https://github.com/Z-Team-Pro/ZTeam-Chat/issues"
+    },
+    "homepage": "https://github.com/Z-Team-Pro/ZTeam-Chat#readme",
+    "dependencies": {
+        "zteam-chat": "^1.0.0"
+    }
+}
